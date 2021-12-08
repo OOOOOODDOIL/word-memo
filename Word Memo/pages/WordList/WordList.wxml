@@ -1,0 +1,16 @@
+<!--pages/WordList/WordList.wxml-->
+<view style="display: flex;flex-direction: row;">
+  <!-- <view class="weui-cells__title">实时获取输入值：{{inputValue}}</view> -->
+  <view class="searchbox">
+    <view>
+      <input class="font" bindinput="bindKeyInput" placeholder="请输入要查找的单词"/>
+    </view>
+  </view>
+  <view>
+    <image class='icon' src="/pages/images/find.png" bindtap="tapsearch"></image>
+  </view>
+</view>
+
+<view>
+  <button class="word" style="width:95%" wx:for="{{word_translation}}" data-word = "{{item[0]}}" data-translation = "{{item[1]}}" bindtap="todetail">{{item[0]}}</button>
+</view>

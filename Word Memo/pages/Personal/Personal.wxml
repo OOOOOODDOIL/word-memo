@@ -1,0 +1,11 @@
+<!--pages/Personal/Personal.wxml-->
+<button wx:if="{{!userinfo}}" class='login' type='primary' bindtap='bindGetUserInfo' class="login">授权登录</button>
+
+<view wx:else class='info'>
+    <image class="avatar" src="{{userinfo.avatarUrl}}"></image>
+    <text class="font">{{userinfo.nickName}}</text>
+    <!-- 用户反馈按钮 -->
+    <button open-type="feedback" style="width:600rpx" class="button1" type="primary">用户反馈</button>
+    <!-- 退出登录按钮 -->
+    <button style="width:600rpx" class="button2" bindtap="logout" type="warn">退出登录</button>
+</view>

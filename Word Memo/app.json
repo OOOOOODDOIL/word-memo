@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/Personal/Personal",
+    "pages/Main/Main",
+    "pages/WordDetail/WordDetail",
+    "pages/WordList/WordList",
+    "pages/Memo/Memo",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Word Memo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#f4645f",
+    "borderStyle": "black",
+    "list": [{
+        "selectedIconPath": "pages/images/main.png",
+        "iconPath": "pages/images/main.png",
+        "pagePath": "pages/Main/Main",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/memo.png",
+        "iconPath": "./pages/images/memo.png",
+        "pagePath": "pages/Memo/Memo",
+        "text": "备忘录"
+      },
+      {
+        "selectedIconPath": "pages/images/personal.png",
+        "iconPath": "pages/images/personal.png",
+        "pagePath": "pages/Personal/Personal",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

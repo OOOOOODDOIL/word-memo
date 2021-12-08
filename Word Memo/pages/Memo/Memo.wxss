@@ -1,0 +1,22 @@
+/* pages/Memo/Memo.wxss */
+.easy{
+  margin-top: 20%;
+  background-color: rgb(122, 187, 96);
+  color: white;
+  font-size: 40rpx;
+  border-radius: 30rpx;
+}
+.midden{
+  margin-top: 20%;
+  background-color: rgb(134, 185, 219);
+  color: white;
+  font-size: 40rpx;
+  border-radius: 30rpx;
+}
+.hard{
+  margin-top: 20%;
+  background-color: rgb(243, 152, 152);
+  color: white;
+  font-size: 40rpx;
+  border-radius: 30rpx;
+}

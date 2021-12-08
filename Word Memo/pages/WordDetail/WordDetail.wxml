@@ -1,0 +1,12 @@
+<!--pages/WordDetail/WordDetail.wxml-->
+<view class="detailbox">
+  <view class='word_font'>
+    <text>{{word}}</text>
+  </view>
+  <view class='detail_font'>
+    <text>{{translation}}</text>
+  </view>
+</view>
+<button class="delete">
+  <image class='icon' src="{{icon_url}}" bindtap="tapstar"></image>
+</button>

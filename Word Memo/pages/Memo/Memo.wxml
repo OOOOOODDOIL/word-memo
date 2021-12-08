@@ -1,0 +1,10 @@
+<!--pages/Memo/Memo.wxml-->
+<navigator url="../WordList/WordList?level=easy">
+  <button class="easy" style="width:60%">简单单词</button>
+</navigator>
+<navigator url="../WordList/WordList?level=mid">
+  <button class="midden" style="width:60%">中等单词</button>
+</navigator>
+<navigator url="../WordList/WordList?level=hard">
+  <button class="hard" style="width:60%">困难单词</button>
+</navigator>

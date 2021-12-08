@@ -1,0 +1,19 @@
+/* pages/Personal/Personal.wxss */
+.login{
+    margin-top: 45%;
+}
+.avatar{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    margin-top: 30%;
+}
+.font{
+    color: chocolate;
+    margin: 10%;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

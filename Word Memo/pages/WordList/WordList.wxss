@@ -1,0 +1,27 @@
+/* pages/WordList/WordList.wxss */
+.searchbox{
+  width:96%;
+  height:70rpx;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25rpx;
+  background-color:rgba(255,255,255,0.81);
+  display: flex;
+  box-shadow:1rpx 4rpx 12rpx rgba(0,0,0,0.4);
+}
+.icon{
+  width: 71rpx;
+  height: 71rpx;
+}
+.word{
+  margin-top: 5%;
+  background-color: rgb(247, 188, 60);
+  color: white;
+  font-size: 35rpx;
+  border-radius: 30rpx;
+}
+.font{
+  margin-left: 3%;
+  margin-top: 1%;
+}
